@@ -5,6 +5,10 @@ SUBLEVEL = 153
 EXTRAVERSION =
 NAME = Trick or Treat
 
+# Samsung build flags
+export PLATFORM_VERSION=13
+export TARGET_SOC=s5e8835
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
